@@ -1,4 +1,4 @@
-# Wine-Application
+# Winery Application
 
 ![GitHub Logo](https://i.imgur.com/4mUfVRj.png)
 
