@@ -44,14 +44,9 @@ public class WineTableViewController implements Initializable {
 
     private ObservableList<Wine> olWines;
 
-    // TODO Part: 1 - to be repeated in MainController as well
-    // Declare as constants the length of the String fields in characters and the 
-    // length of the record in bytes
     final int FIELD_SIZE = 15;
     final long RECORD_SIZE = 80;
-    //END of Part 1
 
-    /**
      * Initializes the controller class.
      */
     @Override
