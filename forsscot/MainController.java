@@ -118,7 +118,7 @@ public class MainController implements Initializable {
     }
     
     /**
-     * This method is used by other method to write a wine record on the file
+     * This method is used by other methods to write a wine record on the file
      */
     private void writeWine(RandomAccessFile raf, Wine w) throws IOException {             
         String estate = this.prepStringField(w.getEstate(), 15);
@@ -143,7 +143,7 @@ public class MainController implements Initializable {
      * properties.
      */
     private Wine readTextFields() {
-        /* TODO Part: 4 - Create a wine object from the text field values
+        /* 
         *  Get values from all of the textfields (excluding txtWineID), create
         *  a wineobject and return it
         */
