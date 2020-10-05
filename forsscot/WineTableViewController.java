@@ -117,8 +117,7 @@ public class WineTableViewController implements Initializable {
         for (int i = 0; i < size; i++) {
             s += String.valueOf(raf.readChar());
         }
-        return s; // to be replaced by the actual return
-        //END of Part 2
+        return s; 
     }
 
     /**
