@@ -187,7 +187,7 @@ public class MainController implements Initializable {
     }
 
     /**
-     * This method is use by writeWine() method to make sure that all strings
+     * This method is used by writeWine() method to make sure that all strings
      * are of the same size
      * @param value the value of the string to be prepared
      * @param size the number of the characters the string must have
