@@ -98,7 +98,7 @@ public class WineTableViewController implements Initializable {
 
     /**
      * Method for reading a String of a length size using a RandomAccessFile
-     * object that is passes as a parameter. It reads the string one character
+     * object that is passed as a parameter. It reads the string one character
      * at a time and concatinates them into a string that is returned back
      *
      * @param raf RandomAccessFile object
