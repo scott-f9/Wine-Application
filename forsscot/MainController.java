@@ -157,8 +157,8 @@ public class MainController implements Initializable {
         (pnlWineController.getTxtPrice().getText());
        Wine wine = new Wine(estate, grape, year, quantity, price);
 
-        return wine; // to be replaced with the actual return
-        //END of Part 4
+        return wine; 
+        
     }
 
     /**
@@ -193,7 +193,7 @@ public class MainController implements Initializable {
      * @param size the number of the characters the string must have
      * @return the string value that was passed as parameter, with added spaced
      * at the end if the string that was passed was less than the size, or a
-     * truncated string if it was longer that size
+     * truncated string if it was longer than that size
      */
     private String prepStringField(String value, int size) {
         if (value.length() < size) {
@@ -289,10 +289,6 @@ public class MainController implements Initializable {
      */
     @FXML
     private void aboutHandler(ActionEvent event) throws IOException {
-        /* 
-        *  Write the code that will open readme.txt file as an external file
-        *  using your default text editor such as notpad or vi.
-        */
         File readme = new File("src/res/readme.txt");
         Desktop.getDesktop().edit(readme);
     }
