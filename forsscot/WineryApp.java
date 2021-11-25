@@ -1,7 +1,5 @@
 /*
     Name:  Scott Forsyth
-    Assignment:  Assignment 6
-    Program: Internet Communications Technology
     Date: April 13th, 2020
     
     Description:
